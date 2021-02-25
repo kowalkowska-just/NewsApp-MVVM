@@ -13,6 +13,7 @@
 		D1DCC81425E852A2007F9583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DCC81325E852A2007F9583 /* Assets.xcassets */; };
 		D1DCC81725E852A2007F9583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DCC81525E852A2007F9583 /* LaunchScreen.storyboard */; };
 		D1DCC82325E85BE5007F9583 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC82225E85BE5007F9583 /* APIKey.swift */; };
+		D1DCC82A25E85D17007F9583 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC82925E85D17007F9583 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1DCC81625E852A2007F9583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1DCC81825E852A3007F9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1DCC82225E85BE5007F9583 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		D1DCC82925E85D17007F9583 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		D1DCC80925E852A0007F9583 /* NewsApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D1DCC82625E85CFC007F9583 /* Models */,
 				D1DCC82125E85AF1007F9583 /* Config */,
 				D1DCC80A25E852A0007F9583 /* AppDelegate.swift */,
 				D1DCC80C25E852A0007F9583 /* SceneDelegate.swift */,
-				D1DCC80E25E852A0007F9583 /* ViewController.swift */,
+				D1DCC82725E85D08007F9583 /* Controllers */,
 				D1DCC81325E852A2007F9583 /* Assets.xcassets */,
 				D1DCC81525E852A2007F9583 /* LaunchScreen.storyboard */,
 				D1DCC81825E852A3007F9583 /* Info.plist */,
@@ -73,6 +76,22 @@
 				D1DCC82225E85BE5007F9583 /* APIKey.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		D1DCC82625E85CFC007F9583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1DCC82925E85D17007F9583 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1DCC82725E85D08007F9583 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1DCC80E25E852A0007F9583 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +166,7 @@
 				D1DCC80F25E852A0007F9583 /* ViewController.swift in Sources */,
 				D1DCC80B25E852A0007F9583 /* AppDelegate.swift in Sources */,
 				D1DCC82325E85BE5007F9583 /* APIKey.swift in Sources */,
+				D1DCC82A25E85D17007F9583 /* News.swift in Sources */,
 				D1DCC80D25E852A0007F9583 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
