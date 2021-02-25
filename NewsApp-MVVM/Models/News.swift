@@ -15,7 +15,7 @@ struct News: Decodable {
     let url: URL?
 }
 
-struct NewsEnvelope {
+struct NewsEnvelope: Decodable {
     let status: String
     let totalResults: Int
     let articles: [News]

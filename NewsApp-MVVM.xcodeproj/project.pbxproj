@@ -14,6 +14,7 @@
 		D1DCC81725E852A2007F9583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DCC81525E852A2007F9583 /* LaunchScreen.storyboard */; };
 		D1DCC82325E85BE5007F9583 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC82225E85BE5007F9583 /* APIKey.swift */; };
 		D1DCC82A25E85D17007F9583 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC82925E85D17007F9583 /* News.swift */; };
+		D1DCC82E25E85EC1007F9583 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC82D25E85EC1007F9583 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D1DCC81825E852A3007F9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1DCC82225E85BE5007F9583 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		D1DCC82925E85D17007F9583 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		D1DCC82D25E85EC1007F9583 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D1DCC80925E852A0007F9583 /* NewsApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D1DCC82C25E85EA6007F9583 /* Services */,
 				D1DCC82625E85CFC007F9583 /* Models */,
 				D1DCC82125E85AF1007F9583 /* Config */,
 				D1DCC80A25E852A0007F9583 /* AppDelegate.swift */,
@@ -92,6 +95,14 @@
 				D1DCC80E25E852A0007F9583 /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D1DCC82C25E85EA6007F9583 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1DCC82D25E85EC1007F9583 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DCC82E25E85EC1007F9583 /* NetworkManager.swift in Sources */,
 				D1DCC80F25E852A0007F9583 /* ViewController.swift in Sources */,
 				D1DCC80B25E852A0007F9583 /* AppDelegate.swift in Sources */,
 				D1DCC82325E85BE5007F9583 /* APIKey.swift in Sources */,
