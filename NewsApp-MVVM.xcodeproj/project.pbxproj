@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D124336625E903AB00987690 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124336525E903AB00987690 /* NewsTableViewCell.swift */; };
 		D1DCC80B25E852A0007F9583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC80A25E852A0007F9583 /* AppDelegate.swift */; };
 		D1DCC80D25E852A0007F9583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC80C25E852A0007F9583 /* SceneDelegate.swift */; };
 		D1DCC80F25E852A0007F9583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DCC80E25E852A0007F9583 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D124336525E903AB00987690 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		D1DCC80725E852A0007F9583 /* NewsApp-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApp-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DCC80A25E852A0007F9583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1DCC80C25E852A0007F9583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				D1DCC83925E87264007F9583 /* HeaderView.swift */,
 				D1DCC83D25E876EE007F9583 /* ShadowImageView.swift */,
+				D124336525E903AB00987690 /* NewsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DCC82E25E85EC1007F9583 /* NetworkManager.swift in Sources */,
+				D124336625E903AB00987690 /* NewsTableViewCell.swift in Sources */,
 				D1DCC83A25E87264007F9583 /* HeaderView.swift in Sources */,
 				D1DCC80F25E852A0007F9583 /* ViewController.swift in Sources */,
 				D1DCC80B25E852A0007F9583 /* AppDelegate.swift in Sources */,
