@@ -4,6 +4,8 @@
 
 # NewsApp - MVVM
 
+### JSON API from: https://newsapi.org/
+
 ## In the application: 
 * Bulding complete programmatically (without storyboard),
 * Using NSCache to cache images, 
